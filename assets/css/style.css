@@ -1,0 +1,32 @@
+body {
+    background-color: oldlace;
+}
+
+header {
+    padding: 35px;
+    background-color: rgba(38, 70, 83, 100);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: oldlace;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    padding: 0px 5px;
+}
+
+.nav-links a {
+    color: oldlace;
+    font-size: 18px;
+}
