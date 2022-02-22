@@ -29,4 +29,5 @@ header h1 {
 .nav-links a {
     color: oldlace;
     font-size: 18px;
+    text-decoration: none;
 }
