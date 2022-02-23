@@ -1,9 +1,9 @@
 body {
-    background-color: oldlace;
+    background-color: #287271;
 }
 
 header {
-    padding: 35px;
+    padding: 15px;
     background-color: #264653;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: oldlace;
@@ -80,6 +80,37 @@ h2 {
     font-size: 22px;
 }
 
+.showcase {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all 250ms ease;
+}
+
+.project {
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.project span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    display: block;
+}
+
+.project:hover {
+    transform: translateY(-6px) translateX(-6px);
+    filter: none;
+    box-shadow: 10px 10px rgba(19, 18, 18, 0.5);
+}
+
+.image-txt {
+    background-color: #287271;
+    padding: 10px;
+}
+
 #work h2 {
     font-size: 30px;
     padding: 8px;
@@ -87,15 +118,9 @@ h2 {
     margin-bottom: auto;
 }
 
-/* .image-txt {
-    position: absolute;
-    bottom: 16px;
-    left: 16px;
-} */
-
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -104,43 +129,44 @@ footer {
     font-size: 22px;
 }
 
-footer h2 {
-    margin-right: auto;
-}
-
-footer nav {
-    margin: auto;
-}
-
 .personal-links {
     list-style: none;
+    justify-self: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
 }
 
 .personal-links li {
-    display: flex;
     padding: 0px 5px;
-    align-items: center;
-    justify-content: center;
 }
 
 .personal-links a {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    display: flex; 
+}
+
+.personal-links a:hover {
+    color: rgb(7, 7, 75);
+    text-shadow: 1px 1px rgba(19, 18, 18, 0.5);
+}
+
+@media screen and (max-width:1800px) {
+    #about-me {
+        width: 1000px;
+    }
+
+    #about-me p{
+        display: inline-block;
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width:768px) {
     #about-me {
         width: 850px;
     }
-    
+
+
     #about-me p {
         display: inline-block;
         font-size: 15px;
