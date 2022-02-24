@@ -1,7 +1,7 @@
 body {
     background-color: #287271;
 }
-
+/* flex box used to style header */
 header {
     padding: 15px;
     background-color: #264653;
@@ -20,10 +20,10 @@ header h1 {
 .page-links {
     list-style: none;
 }
-
+/* links are given a hover selector */
 .page-links a:hover {
     color: wheat;
-    text-shadow: 6px 6px rgba(19, 18, 18, 0.5);
+    text-shadow: 4px 4px rgba(19, 18, 18, 0.5);
 }
 
 .page-links li {
@@ -79,7 +79,7 @@ h2 {
     color: oldlace;
     font-size: 22px;
 }
-
+/* flex box used to style and align again */
 .showcase {
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ h2 {
     margin: 10px;
     display: block;
 }
-
+/* another hover selector and image styling */
 .project:hover {
     transform: translateY(-6px) translateX(-6px);
     filter: none;
@@ -117,7 +117,7 @@ h2 {
     margin-right: auto;
     margin-bottom: auto;
 }
-
+/* flexbox used once again to style the footer */
 footer {
     display: flex;
     justify-content: space-between;
@@ -149,7 +149,7 @@ footer {
     color: rgb(7, 7, 75);
     text-shadow: 1px 1px rgba(19, 18, 18, 0.5);
 }
-
+/* media queries adjust the page when it is resized */
 @media screen and (max-width:1800px) {
     #about-me {
         width: 1000px;
