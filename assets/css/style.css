@@ -78,29 +78,16 @@ h2 {
     background-color: #264653;
     color: oldlace;
     font-size: 22px;
-}
-/* flex box used to style and align again */
-.showcase {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    transition: all 250ms ease;
+    padding-bottom: 52px;
 }
 
-.project {
-    position: relative;
+.container img {
     filter: grayscale(100%);
 }
 
-.project span {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 10px;
-    display: block;
-}
 /* another hover selector and image styling */
-.project:hover {
+
+.container img:hover {
     transform: translateY(-6px) translateX(-6px);
     filter: none;
     box-shadow: 10px 10px rgba(19, 18, 18, 0.5);
@@ -111,12 +98,23 @@ h2 {
     padding: 10px;
 }
 
+.container {
+    width: 800px;
+    padding-top: 5px;
+}
+
 #work h2 {
     font-size: 30px;
     padding: 8px;
     margin-right: auto;
     margin-bottom: auto;
+    text-align: center;
 }
+
+#work {
+    height: auto;
+}
+
 /* flexbox used once again to style the footer */
 footer {
     display: flex;
@@ -150,9 +148,10 @@ footer {
     text-shadow: 1px 1px rgba(19, 18, 18, 0.5);
 }
 /* media queries adjust the page when it is resized */
-@media screen and (max-width:1800px) {
+@media screen and (max-width:1625px) {
     #about-me {
         width: 1000px;
+        display: inline;
     }
 
     #about-me p{
@@ -163,12 +162,24 @@ footer {
 
 @media screen and (max-width:768px) {
     #about-me {
-        width: 850px;
+        display: inline;
     }
 
+    #me {
+        width: 100%;
+    }
 
     #about-me p {
         display: inline-block;
         font-size: 15px;
     }
+
+    ul.page-links {
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+    }
+
 }
