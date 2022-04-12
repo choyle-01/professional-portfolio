@@ -10,4 +10,4 @@ The project site can be found [here](https://choyle-01.github.io/professional-po
 The Github repository can be found [here](https://github.com/choyle-01/professional-portfolio)
 
 ## Visuals
-![photo of finished website](./assets/images/portfolio-project.png)
+![photo of finished website](./assets/images/portfolio.png)
