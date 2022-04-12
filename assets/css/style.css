@@ -3,8 +3,8 @@ body {
 }
 /* flex box used to style header */
 header {
-    padding: 15px;
-    background-color: #264653;
+    padding: 25px;
+    background-color: #222831;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: oldlace;
     display: flex;
@@ -15,6 +15,7 @@ header {
 header h1 {
     font-size: 35px;
     margin-right: auto;
+    text-align: center;
 }
 
 .page-links {
@@ -45,7 +46,7 @@ header h1 {
 #about-me {
     height: 600px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #287271;
+    background-color: #00ADB5;
     color: oldlace;
     font-size: 22px;
     padding-left: 405px;
@@ -75,7 +76,7 @@ h2 {
 #work {
     height: 800px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #264653;
+    background-color: #222831;
     color: oldlace;
     font-size: 22px;
     padding-bottom: 52px;
@@ -94,7 +95,7 @@ h2 {
 }
 
 .image-txt {
-    background-color: #287271;
+    background-color: #222831;
     padding: 10px;
 }
 
@@ -122,7 +123,7 @@ footer {
     align-items: center;
     height: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: oldlace;
+    background-color: #EEEEEE;
     color: black;
     font-size: 22px;
 }
